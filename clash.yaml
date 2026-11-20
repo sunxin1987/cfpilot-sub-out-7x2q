@@ -1,0 +1,1750 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+- name: '[1] 官方优选IP 104.27.19.224 #1'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.27.19.224
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.17.0.1 #2'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.17.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.23.0.1 #3'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.23.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 172.66.0.1 #4'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 172.66.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 172.67.0.1 #5'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 172.67.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.22.0.1 #6'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.22.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.17.32.1 #7'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.17.32.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.17.192.1 #8'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.17.192.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.17.64.1 #9'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.17.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.16.64.1 #10'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.16.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.21.0.1 #11'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.21.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.21.64.1 #12'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.21.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.20.64.1 #13'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.20.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.25.0.1 #14'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.25.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.16.32.1 #15'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.16.32.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.22.64.1 #16'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.22.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.23.64.1 #17'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.23.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.19.0.1 #18'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.19.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.20.0.1 #19'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.20.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 官方优选IP 104.19.64.1 #20'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: 104.19.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 优选域名 www.visa.com #1'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: www.visa.com
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 优选域名 cdn.2020111.xyz #2'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: cdn.2020111.xyz
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 优选域名 www.visa.com.tw #3'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: www.visa.com.tw
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 优选域名 www.garmin.com #4'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: www.garmin.com
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 优选域名 www.udemy.com #5'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: www.udemy.com
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 优选域名 malaysia.com #6'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: malaysia.com
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 优选域名 japan.com #7'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: japan.com
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 优选域名 www.visa.com.hk #8'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: www.visa.com.hk
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 优选域名 cf.0sm.com #9'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: cf.0sm.com
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[1] 优选域名 www.visa.co.jp #10'
+  type: vless
+  uuid: fc7b0a14-0813-4ec6-a89c-d19158074277
+  server: www.visa.co.jp
+  port: 443
+  network: ws
+  tls: true
+  servername: ri2c726h9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /mds4hkazen
+    headers:
+      Host: ri2c726h9.pages.dev
+- name: '[2] 官方优选IP 104.18.0.1 #1'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.18.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.22.0.1 #2'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.22.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.16.64.1 #3'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.16.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.17.128.1 #4'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.17.128.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.20.64.1 #5'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.20.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.16.32.1 #6'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.16.32.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.19.0.1 #7'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.19.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.19.64.1 #8'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.19.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.17.0.1 #9'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.17.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.22.64.1 #10'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.22.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.17.32.1 #11'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.17.32.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.21.0.1 #12'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.21.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 172.66.0.1 #13'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 172.66.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.17.64.1 #14'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.17.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.27.19.224 #15'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.27.19.224
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.20.0.1 #16'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.20.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.23.0.1 #17'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.23.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.18.64.1 #18'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.18.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.16.192.1 #19'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.16.192.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 官方优选IP 104.21.64.1 #20'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: 104.21.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 优选域名 xn--b6gac.eu.org #1'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: xn--b6gac.eu.org
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 优选域名 www.visa.co.jp #2'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: www.visa.co.jp
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 优选域名 skk.moe #3'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: skk.moe
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 优选域名 time.is #4'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: time.is
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 优选域名 cdn.cloudflare.182682.xyz #5'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: cdn.cloudflare.182682.xyz
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 优选域名 www.visa.com.tw #6'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: www.visa.com.tw
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 优选域名 www.visa.com.hk #7'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: www.visa.com.hk
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 优选域名 www.wto.org #8'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: www.wto.org
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 优选域名 malaysia.com #9'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: malaysia.com
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[2] 优选域名 www.visa.com.sg #10'
+  type: vless
+  uuid: 64ab9a67-c369-4b36-a840-8ff04ae3b8ce
+  server: www.visa.com.sg
+  port: 443
+  network: ws
+  tls: true
+  servername: h2od0e3x7s.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /lpjwxcwnlb
+    headers:
+      Host: h2od0e3x7s.pages.dev
+- name: '[3] 官方优选IP 172.66.0.1 #1'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 172.66.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.27.19.224 #2'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.27.19.224
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.20.64.1 #3'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.20.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.21.0.1 #4'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.21.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.16.32.1 #5'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.16.32.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.17.0.1 #6'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.17.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.22.64.1 #7'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.22.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.16.64.1 #8'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.16.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.23.0.1 #9'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.23.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.19.0.1 #10'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.19.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.17.64.1 #11'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.17.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.17.192.1 #12'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.17.192.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.18.0.1 #13'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.18.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.20.0.1 #14'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.20.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.21.64.1 #15'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.21.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.16.192.1 #16'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.16.192.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.25.0.1 #17'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.25.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.24.0.1 #18'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.24.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.22.0.1 #19'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.22.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 官方优选IP 104.18.64.1 #20'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: 104.18.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 优选域名 www.visakorea.com #1'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: www.visakorea.com
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 优选域名 www.garmin.com #2'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: www.garmin.com
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 优选域名 www.udemy.com #3'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: www.udemy.com
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 优选域名 cf.090227.xyz #4'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: cf.090227.xyz
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 优选域名 icook.hk #5'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: icook.hk
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 优选域名 www.speedtest.net #6'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: www.speedtest.net
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 优选域名 www.visa.com.sg #7'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: www.visa.com.sg
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 优选域名 bestcf.top #8'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: bestcf.top
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 优选域名 www.digitalocean.com #9'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: www.digitalocean.com
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[3] 优选域名 cloudflare.182682.xyz #10'
+  type: vless
+  uuid: 45d2d4b1-f403-4516-8bc0-0642587b4694
+  server: cloudflare.182682.xyz
+  port: 443
+  network: ws
+  tls: true
+  servername: 0f4g25n9.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /heecvwvcdc
+    headers:
+      Host: 0f4g25n9.pages.dev
+- name: '[4] 官方优选IP 104.24.0.1 #1'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.24.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 172.67.0.1 #2'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 172.67.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.16.192.1 #3'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.16.192.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.17.32.1 #4'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.17.32.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.16.0.1 #5'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.16.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.17.0.1 #6'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.17.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.27.19.224 #7'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.27.19.224
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.18.64.1 #8'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.18.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.19.64.1 #9'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.19.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.20.0.1 #10'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.20.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.17.192.1 #11'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.17.192.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.22.0.1 #12'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.22.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.17.64.1 #13'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.17.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.22.64.1 #14'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.22.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.21.0.1 #15'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.21.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.16.128.1 #16'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.16.128.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.23.64.1 #17'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.23.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.20.64.1 #18'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.20.64.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.17.128.1 #19'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.17.128.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 官方优选IP 104.19.0.1 #20'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: 104.19.0.1
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 优选域名 www.speedtest.net #1'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: www.speedtest.net
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 优选域名 www.visa.com.hk #2'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: www.visa.com.hk
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 优选域名 node.cf.090227.xyz #3'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: node.cf.090227.xyz
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 优选域名 www.garmin.com #4'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: www.garmin.com
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 优选域名 skk.moe #5'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: skk.moe
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 优选域名 icook.tw #6'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: icook.tw
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 优选域名 www.wto.org #7'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: www.wto.org
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 优选域名 bestcf.top #8'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: bestcf.top
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 优选域名 japan.com #9'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: japan.com
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+- name: '[4] 优选域名 www.visa.com.sg #10'
+  type: vless
+  uuid: 8a4a6f58-15b6-4a52-983b-65c853c975a7
+  server: www.visa.com.sg
+  port: 443
+  network: ws
+  tls: true
+  servername: blog-assets-sync-md2nj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /5vef0klxh6
+    headers:
+      Host: blog-assets-sync-md2nj.pages.dev
+proxy-groups:
+- name: Proxy
+  type: select
+  proxies:
+  - '[1] 官方优选IP 104.27.19.224 #1'
+  - '[1] 官方优选IP 104.17.0.1 #2'
+  - '[1] 官方优选IP 104.23.0.1 #3'
+  - '[1] 官方优选IP 172.66.0.1 #4'
+  - '[1] 官方优选IP 172.67.0.1 #5'
+  - '[1] 官方优选IP 104.22.0.1 #6'
+  - '[1] 官方优选IP 104.17.32.1 #7'
+  - '[1] 官方优选IP 104.17.192.1 #8'
+  - '[1] 官方优选IP 104.17.64.1 #9'
+  - '[1] 官方优选IP 104.16.64.1 #10'
+  - '[1] 官方优选IP 104.21.0.1 #11'
+  - '[1] 官方优选IP 104.21.64.1 #12'
+  - '[1] 官方优选IP 104.20.64.1 #13'
+  - '[1] 官方优选IP 104.25.0.1 #14'
+  - '[1] 官方优选IP 104.16.32.1 #15'
+  - '[1] 官方优选IP 104.22.64.1 #16'
+  - '[1] 官方优选IP 104.23.64.1 #17'
+  - '[1] 官方优选IP 104.19.0.1 #18'
+  - '[1] 官方优选IP 104.20.0.1 #19'
+  - '[1] 官方优选IP 104.19.64.1 #20'
+  - '[1] 优选域名 www.visa.com #1'
+  - '[1] 优选域名 cdn.2020111.xyz #2'
+  - '[1] 优选域名 www.visa.com.tw #3'
+  - '[1] 优选域名 www.garmin.com #4'
+  - '[1] 优选域名 www.udemy.com #5'
+  - '[1] 优选域名 malaysia.com #6'
+  - '[1] 优选域名 japan.com #7'
+  - '[1] 优选域名 www.visa.com.hk #8'
+  - '[1] 优选域名 cf.0sm.com #9'
+  - '[1] 优选域名 www.visa.co.jp #10'
+  - '[2] 官方优选IP 104.18.0.1 #1'
+  - '[2] 官方优选IP 104.22.0.1 #2'
+  - '[2] 官方优选IP 104.16.64.1 #3'
+  - '[2] 官方优选IP 104.17.128.1 #4'
+  - '[2] 官方优选IP 104.20.64.1 #5'
+  - '[2] 官方优选IP 104.16.32.1 #6'
+  - '[2] 官方优选IP 104.19.0.1 #7'
+  - '[2] 官方优选IP 104.19.64.1 #8'
+  - '[2] 官方优选IP 104.17.0.1 #9'
+  - '[2] 官方优选IP 104.22.64.1 #10'
+  - '[2] 官方优选IP 104.17.32.1 #11'
+  - '[2] 官方优选IP 104.21.0.1 #12'
+  - '[2] 官方优选IP 172.66.0.1 #13'
+  - '[2] 官方优选IP 104.17.64.1 #14'
+  - '[2] 官方优选IP 104.27.19.224 #15'
+  - '[2] 官方优选IP 104.20.0.1 #16'
+  - '[2] 官方优选IP 104.23.0.1 #17'
+  - '[2] 官方优选IP 104.18.64.1 #18'
+  - '[2] 官方优选IP 104.16.192.1 #19'
+  - '[2] 官方优选IP 104.21.64.1 #20'
+  - '[2] 优选域名 xn--b6gac.eu.org #1'
+  - '[2] 优选域名 www.visa.co.jp #2'
+  - '[2] 优选域名 skk.moe #3'
+  - '[2] 优选域名 time.is #4'
+  - '[2] 优选域名 cdn.cloudflare.182682.xyz #5'
+  - '[2] 优选域名 www.visa.com.tw #6'
+  - '[2] 优选域名 www.visa.com.hk #7'
+  - '[2] 优选域名 www.wto.org #8'
+  - '[2] 优选域名 malaysia.com #9'
+  - '[2] 优选域名 www.visa.com.sg #10'
+  - '[3] 官方优选IP 172.66.0.1 #1'
+  - '[3] 官方优选IP 104.27.19.224 #2'
+  - '[3] 官方优选IP 104.20.64.1 #3'
+  - '[3] 官方优选IP 104.21.0.1 #4'
+  - '[3] 官方优选IP 104.16.32.1 #5'
+  - '[3] 官方优选IP 104.17.0.1 #6'
+  - '[3] 官方优选IP 104.22.64.1 #7'
+  - '[3] 官方优选IP 104.16.64.1 #8'
+  - '[3] 官方优选IP 104.23.0.1 #9'
+  - '[3] 官方优选IP 104.19.0.1 #10'
+  - '[3] 官方优选IP 104.17.64.1 #11'
+  - '[3] 官方优选IP 104.17.192.1 #12'
+  - '[3] 官方优选IP 104.18.0.1 #13'
+  - '[3] 官方优选IP 104.20.0.1 #14'
+  - '[3] 官方优选IP 104.21.64.1 #15'
+  - '[3] 官方优选IP 104.16.192.1 #16'
+  - '[3] 官方优选IP 104.25.0.1 #17'
+  - '[3] 官方优选IP 104.24.0.1 #18'
+  - '[3] 官方优选IP 104.22.0.1 #19'
+  - '[3] 官方优选IP 104.18.64.1 #20'
+  - '[3] 优选域名 www.visakorea.com #1'
+  - '[3] 优选域名 www.garmin.com #2'
+  - '[3] 优选域名 www.udemy.com #3'
+  - '[3] 优选域名 cf.090227.xyz #4'
+  - '[3] 优选域名 icook.hk #5'
+  - '[3] 优选域名 www.speedtest.net #6'
+  - '[3] 优选域名 www.visa.com.sg #7'
+  - '[3] 优选域名 bestcf.top #8'
+  - '[3] 优选域名 www.digitalocean.com #9'
+  - '[3] 优选域名 cloudflare.182682.xyz #10'
+  - '[4] 官方优选IP 104.24.0.1 #1'
+  - '[4] 官方优选IP 172.67.0.1 #2'
+  - '[4] 官方优选IP 104.16.192.1 #3'
+  - '[4] 官方优选IP 104.17.32.1 #4'
+  - '[4] 官方优选IP 104.16.0.1 #5'
+  - '[4] 官方优选IP 104.17.0.1 #6'
+  - '[4] 官方优选IP 104.27.19.224 #7'
+  - '[4] 官方优选IP 104.18.64.1 #8'
+  - '[4] 官方优选IP 104.19.64.1 #9'
+  - '[4] 官方优选IP 104.20.0.1 #10'
+  - '[4] 官方优选IP 104.17.192.1 #11'
+  - '[4] 官方优选IP 104.22.0.1 #12'
+  - '[4] 官方优选IP 104.17.64.1 #13'
+  - '[4] 官方优选IP 104.22.64.1 #14'
+  - '[4] 官方优选IP 104.21.0.1 #15'
+  - '[4] 官方优选IP 104.16.128.1 #16'
+  - '[4] 官方优选IP 104.23.64.1 #17'
+  - '[4] 官方优选IP 104.20.64.1 #18'
+  - '[4] 官方优选IP 104.17.128.1 #19'
+  - '[4] 官方优选IP 104.19.0.1 #20'
+  - '[4] 优选域名 www.speedtest.net #1'
+  - '[4] 优选域名 www.visa.com.hk #2'
+  - '[4] 优选域名 node.cf.090227.xyz #3'
+  - '[4] 优选域名 www.garmin.com #4'
+  - '[4] 优选域名 skk.moe #5'
+  - '[4] 优选域名 icook.tw #6'
+  - '[4] 优选域名 www.wto.org #7'
+  - '[4] 优选域名 bestcf.top #8'
+  - '[4] 优选域名 japan.com #9'
+  - '[4] 优选域名 www.visa.com.sg #10'
+rule-providers:
+  private:
+    type: http
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
+    path: ./ruleset/private.txt
+    interval: 86400
+  lancidr:
+    type: http
+    behavior: ipcidr
+    format: text
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+    path: ./ruleset/lancidr.txt
+    interval: 86400
+  reject:
+    type: http
+    behavior: domain
+    format: text
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+    path: ./ruleset/reject.txt
+    interval: 86400
+  direct:
+    type: http
+    behavior: domain
+    format: text
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
+    path: ./ruleset/direct.txt
+    interval: 86400
+  proxy:
+    type: http
+    behavior: domain
+    format: text
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
+    path: ./ruleset/proxy.txt
+    interval: 86400
+  cncidr:
+    type: http
+    behavior: ipcidr
+    format: text
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
+    path: ./ruleset/cncidr.txt
+    interval: 86400
+rules:
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR6,::1/128,DIRECT
+- IP-CIDR6,fc00::/7,DIRECT
+- IP-CIDR6,fe80::/10,DIRECT
+- RULE-SET,private,DIRECT
+- RULE-SET,lancidr,DIRECT
+- RULE-SET,reject,REJECT
+- RULE-SET,direct,DIRECT
+- RULE-SET,proxy,Proxy
+- RULE-SET,cncidr,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,Proxy
